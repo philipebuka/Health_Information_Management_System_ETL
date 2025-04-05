@@ -1,0 +1,50 @@
+[2025-03-27T12:02:06.575+0100] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: test_dag.transfer_data manual__2025-03-27T11:02:03.474913+00:00 [queued]>
+[2025-03-27T12:02:06.580+0100] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: test_dag.transfer_data manual__2025-03-27T11:02:03.474913+00:00 [queued]>
+[2025-03-27T12:02:06.580+0100] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-03-27T12:02:06.591+0100] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): transfer_data> on 2025-03-27 11:02:03.474913+00:00
+[2025-03-27T12:02:06.593+0100] {standard_task_runner.py:60} INFO - Started process 2999 to run task
+[2025-03-27T12:02:06.595+0100] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'test_dag', 'transfer_data', 'manual__2025-03-27T11:02:03.474913+00:00', '--job-id', '76', '--raw', '--subdir', 'DAGS_FOLDER/test_dag.py', '--cfg-path', '/tmp/tmpyz951evr']
+[2025-03-27T12:02:06.596+0100] {standard_task_runner.py:88} INFO - Job 76: Subtask transfer_data
+[2025-03-27T12:02:06.640+0100] {task_command.py:423} INFO - Running <TaskInstance: test_dag.transfer_data manual__2025-03-27T11:02:03.474913+00:00 [running]> on host LAPTOP-A4DHQTS9.
+[2025-03-27T12:02:06.711+0100] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='test_dag' AIRFLOW_CTX_TASK_ID='transfer_data' AIRFLOW_CTX_EXECUTION_DATE='2025-03-27T11:02:03.474913+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-27T11:02:03.474913+00:00'
+[2025-03-27T12:02:06.722+0100] {base.py:83} INFO - Using connection ID 'source_db' for task execution.
+[2025-03-27T12:02:06.727+0100] {sql.py:450} INFO - Running statement: SELECT * FROM prog3;, parameters: None
+[2025-03-27T12:02:06.729+0100] {sql.py:459} INFO - Rows affected: 30
+[2025-03-27T12:02:06.739+0100] {base.py:83} INFO - Using connection ID 'destination_db' for task execution.
+[2025-03-27T12:02:06.751+0100] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/philip/de_engineering/airflow_projects/airflow1/venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/philip/de_engineering/airflow_projects/airflow1/venv/lib/python3.10/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/philip/de_engineering/airflow_projects/airflow1/venv/lib/python3.10/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/philip/airflow/dags/test_dag.py", line 68, in transfer_data
+    dest_pg_hook.insert_rows(f"staging.{destination_table}", source_data)
+  File "/home/philip/de_engineering/airflow_projects/airflow1/venv/lib/python3.10/site-packages/airflow/providers/common/sql/hooks/sql.py", line 541, in insert_rows
+    cur.execute(sql, values)
+psycopg2.errors.GroupingError: aggregate function calls cannot contain window function calls
+LINE 3:             string_agg('$' || row_number() OVER(), ', ')
+                                      ^
+QUERY:  SELECT 
+            string_agg(quote_ident(column_name), ', '),
+            string_agg('$' || row_number() OVER(), ', ')
+                                                     FROM information_schema.columns
+        WHERE table_schema = target_schema
+          AND table_name = target_table
+CONTEXT:  PL/pgSQL function utils.generic_update_transformation_table() line 50 at SQL statement
+
+[2025-03-27T12:02:06.761+0100] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=test_dag, task_id=transfer_data, execution_date=20250327T110203, start_date=20250327T110206, end_date=20250327T110206
+[2025-03-27T12:02:06.770+0100] {standard_task_runner.py:107} ERROR - Failed to execute job 76 for task transfer_data (aggregate function calls cannot contain window function calls
+LINE 3:             string_agg('$' || row_number() OVER(), ', ')
+                                      ^
+QUERY:  SELECT 
+            string_agg(quote_ident(column_name), ', '),
+            string_agg('$' || row_number() OVER(), ', ')
+                                                     FROM information_schema.columns
+        WHERE table_schema = target_schema
+          AND table_name = target_table
+CONTEXT:  PL/pgSQL function utils.generic_update_transformation_table() line 50 at SQL statement
+; 2999)
+[2025-03-27T12:02:06.807+0100] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-03-27T12:02:06.822+0100] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,1229 @@
+[2025-03-27T15:46:36.733+0100] {processor.py:161} INFO - Started process (PID=12155) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T15:46:36.733+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T15:46:36.734+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:46:36.734+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T15:46:36.745+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T15:46:36.926+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:46:36.925+0100] {override.py:1769} INFO - Created Permission View: can edit on DAG:test_dag2
+[2025-03-27T15:46:36.933+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:46:36.933+0100] {override.py:1769} INFO - Created Permission View: can read on DAG:test_dag2
+[2025-03-27T15:46:36.938+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:46:36.937+0100] {override.py:1769} INFO - Created Permission View: can delete on DAG:test_dag2
+[2025-03-27T15:46:36.938+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:46:36.938+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T15:46:36.946+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:46:36.946+0100] {dag.py:3058} INFO - Creating ORM DAG for test_dag2
+[2025-03-27T15:46:36.956+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:46:36.956+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-26 00:00:00+00:00, run_after=2025-03-27 00:00:00+00:00
+[2025-03-27T15:46:36.969+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.238 seconds
+[2025-03-27T15:47:07.976+0100] {processor.py:161} INFO - Started process (PID=12265) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T15:47:07.977+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T15:47:07.977+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:47:07.977+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T15:47:07.991+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T15:47:08.020+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:47:08.020+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T15:47:08.043+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:47:08.042+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-26 00:00:00+00:00, run_after=2025-03-27 00:00:00+00:00
+[2025-03-27T15:47:08.062+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.089 seconds
+[2025-03-27T15:47:38.252+0100] {processor.py:161} INFO - Started process (PID=12375) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T15:47:38.254+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T15:47:38.255+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:47:38.255+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T15:47:38.274+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T15:47:38.314+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:47:38.314+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T15:47:38.338+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:47:38.337+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-26 00:00:00+00:00, run_after=2025-03-27 00:00:00+00:00
+[2025-03-27T15:47:38.354+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.105 seconds
+[2025-03-27T15:48:08.509+0100] {processor.py:161} INFO - Started process (PID=12479) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T15:48:08.510+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T15:48:08.511+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:48:08.511+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T15:48:08.527+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T15:48:08.560+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:48:08.559+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T15:48:08.587+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:48:08.587+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-26 00:00:00+00:00, run_after=2025-03-27 00:00:00+00:00
+[2025-03-27T15:48:08.605+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.101 seconds
+[2025-03-27T15:48:38.780+0100] {processor.py:161} INFO - Started process (PID=12589) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T15:48:38.823+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T15:48:38.824+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:48:38.823+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T15:48:38.834+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T15:48:38.862+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:48:38.862+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T15:48:38.881+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:48:38.881+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-26 00:00:00+00:00, run_after=2025-03-27 00:00:00+00:00
+[2025-03-27T15:48:38.895+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.117 seconds
+[2025-03-27T15:49:09.115+0100] {processor.py:161} INFO - Started process (PID=12693) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T15:49:09.117+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T15:49:09.119+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:49:09.119+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T15:49:09.142+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T15:49:09.180+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:49:09.180+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T15:49:09.201+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:49:09.200+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-26 00:00:00+00:00, run_after=2025-03-27 00:00:00+00:00
+[2025-03-27T15:49:09.215+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.105 seconds
+[2025-03-27T15:49:39.375+0100] {processor.py:161} INFO - Started process (PID=12803) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T15:49:39.377+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T15:49:39.377+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:49:39.377+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T15:49:39.390+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T15:49:39.429+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:49:39.429+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T15:49:39.456+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:49:39.455+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-26 00:00:00+00:00, run_after=2025-03-27 00:00:00+00:00
+[2025-03-27T15:49:39.473+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.101 seconds
+[2025-03-27T15:50:09.629+0100] {processor.py:161} INFO - Started process (PID=12908) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T15:50:09.631+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T15:50:09.632+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:50:09.631+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T15:50:09.650+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T15:50:09.693+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:50:09.693+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T15:50:09.717+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:50:09.717+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-26 00:00:00+00:00, run_after=2025-03-27 00:00:00+00:00
+[2025-03-27T15:50:09.733+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.107 seconds
+[2025-03-27T15:50:39.928+0100] {processor.py:161} INFO - Started process (PID=13018) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T15:50:39.929+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T15:50:39.930+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:50:39.930+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T15:50:39.942+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T15:50:39.973+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:50:39.972+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T15:50:39.994+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:50:39.994+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-26 00:00:00+00:00, run_after=2025-03-27 00:00:00+00:00
+[2025-03-27T15:50:40.011+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.085 seconds
+[2025-03-27T15:51:10.191+0100] {processor.py:161} INFO - Started process (PID=13122) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T15:51:10.192+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T15:51:10.193+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:51:10.193+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T15:51:10.203+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T15:51:10.235+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:51:10.235+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T15:51:10.259+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:51:10.258+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-26 00:00:00+00:00, run_after=2025-03-27 00:00:00+00:00
+[2025-03-27T15:51:10.276+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.089 seconds
+[2025-03-27T15:51:40.504+0100] {processor.py:161} INFO - Started process (PID=13232) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T15:51:40.506+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T15:51:40.507+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:51:40.507+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T15:51:40.519+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T15:51:40.551+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:51:40.551+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T15:51:40.574+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:51:40.574+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-26 00:00:00+00:00, run_after=2025-03-27 00:00:00+00:00
+[2025-03-27T15:51:40.595+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.093 seconds
+[2025-03-27T15:52:10.845+0100] {processor.py:161} INFO - Started process (PID=13336) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T15:52:10.846+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T15:52:10.847+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:52:10.847+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T15:52:10.861+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T15:52:10.888+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:52:10.888+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T15:52:10.913+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:52:10.913+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-26 00:00:00+00:00, run_after=2025-03-27 00:00:00+00:00
+[2025-03-27T15:52:10.929+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.090 seconds
+[2025-03-27T15:52:41.134+0100] {processor.py:161} INFO - Started process (PID=13446) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T15:52:41.135+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T15:52:41.136+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:52:41.136+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T15:52:41.151+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T15:52:41.182+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:52:41.182+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T15:52:41.203+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:52:41.203+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-26 00:00:00+00:00, run_after=2025-03-27 00:00:00+00:00
+[2025-03-27T15:52:41.221+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.091 seconds
+[2025-03-27T15:53:11.407+0100] {processor.py:161} INFO - Started process (PID=13550) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T15:53:11.408+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T15:53:11.409+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:53:11.409+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T15:53:11.419+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T15:53:11.443+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:53:11.443+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T15:53:11.460+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:53:11.460+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-26 00:00:00+00:00, run_after=2025-03-27 00:00:00+00:00
+[2025-03-27T15:53:11.473+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.069 seconds
+[2025-03-27T15:53:41.688+0100] {processor.py:161} INFO - Started process (PID=13661) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T15:53:41.732+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T15:53:41.733+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:53:41.732+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T15:53:41.742+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T15:53:41.767+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:53:41.767+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T15:53:41.786+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:53:41.786+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-26 00:00:00+00:00, run_after=2025-03-27 00:00:00+00:00
+[2025-03-27T15:53:41.801+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.116 seconds
+[2025-03-27T15:54:11.971+0100] {processor.py:161} INFO - Started process (PID=13765) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T15:54:11.972+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T15:54:11.972+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:54:11.972+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T15:54:11.987+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T15:54:12.021+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:54:12.021+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T15:54:12.042+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:54:12.042+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-26 00:00:00+00:00, run_after=2025-03-27 00:00:00+00:00
+[2025-03-27T15:54:12.059+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.092 seconds
+[2025-03-27T15:54:42.226+0100] {processor.py:161} INFO - Started process (PID=13875) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T15:54:42.228+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T15:54:42.229+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:54:42.229+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T15:54:42.240+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T15:54:42.269+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:54:42.269+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T15:54:42.291+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:54:42.291+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-26 00:00:00+00:00, run_after=2025-03-27 00:00:00+00:00
+[2025-03-27T15:54:42.308+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.085 seconds
+[2025-03-27T15:55:12.536+0100] {processor.py:161} INFO - Started process (PID=13982) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T15:55:12.537+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T15:55:12.538+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:55:12.537+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T15:55:12.552+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T15:55:12.583+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:55:12.583+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T15:55:12.607+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:55:12.607+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-26 00:00:00+00:00, run_after=2025-03-27 00:00:00+00:00
+[2025-03-27T15:55:12.626+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.094 seconds
+[2025-03-27T15:55:42.792+0100] {processor.py:161} INFO - Started process (PID=14092) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T15:55:42.834+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T15:55:42.835+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:55:42.834+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T15:55:42.845+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T15:55:42.876+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:55:42.876+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T15:55:42.900+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:55:42.899+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-26 00:00:00+00:00, run_after=2025-03-27 00:00:00+00:00
+[2025-03-27T15:55:42.918+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.129 seconds
+[2025-03-27T15:56:13.052+0100] {processor.py:161} INFO - Started process (PID=14196) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T15:56:13.053+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T15:56:13.053+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:56:13.053+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T15:56:13.071+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T15:56:13.106+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:56:13.106+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T15:56:13.126+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:56:13.126+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-26 00:00:00+00:00, run_after=2025-03-27 00:00:00+00:00
+[2025-03-27T15:56:13.142+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.095 seconds
+[2025-03-27T15:56:43.338+0100] {processor.py:161} INFO - Started process (PID=14306) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T15:56:43.365+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T15:56:43.366+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:56:43.366+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T15:56:43.376+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T15:56:43.403+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:56:43.403+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T15:56:43.424+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:56:43.424+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-26 00:00:00+00:00, run_after=2025-03-27 00:00:00+00:00
+[2025-03-27T15:56:43.440+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.105 seconds
+[2025-03-27T15:57:13.630+0100] {processor.py:161} INFO - Started process (PID=14410) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T15:57:13.631+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T15:57:13.632+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:57:13.632+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T15:57:13.650+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T15:57:13.688+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:57:13.688+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T15:57:13.708+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:57:13.708+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-26 00:00:00+00:00, run_after=2025-03-27 00:00:00+00:00
+[2025-03-27T15:57:13.724+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.096 seconds
+[2025-03-27T15:57:43.897+0100] {processor.py:161} INFO - Started process (PID=14520) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T15:57:43.898+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T15:57:43.899+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:57:43.899+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T15:57:43.911+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T15:57:43.938+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:57:43.938+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T15:57:43.958+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:57:43.958+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-26 00:00:00+00:00, run_after=2025-03-27 00:00:00+00:00
+[2025-03-27T15:57:43.975+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.081 seconds
+[2025-03-27T15:58:14.160+0100] {processor.py:161} INFO - Started process (PID=14624) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T15:58:14.161+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T15:58:14.162+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:58:14.161+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T15:58:14.174+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T15:58:14.205+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:58:14.204+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T15:58:14.225+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:58:14.224+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-26 00:00:00+00:00, run_after=2025-03-27 00:00:00+00:00
+[2025-03-27T15:58:14.241+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.084 seconds
+[2025-03-27T15:58:44.417+0100] {processor.py:161} INFO - Started process (PID=15080) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T15:58:44.419+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T15:58:44.420+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:58:44.419+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T15:58:44.436+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T15:58:44.469+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:58:44.469+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T15:58:44.499+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:58:44.498+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-26 00:00:00+00:00, run_after=2025-03-27 00:00:00+00:00
+[2025-03-27T15:58:44.520+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.106 seconds
+[2025-03-27T15:59:14.691+0100] {processor.py:161} INFO - Started process (PID=15379) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T15:59:14.692+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T15:59:14.693+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:59:14.692+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T15:59:14.709+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T15:59:14.748+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:59:14.748+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T15:59:14.777+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:59:14.777+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-26 00:00:00+00:00, run_after=2025-03-27 00:00:00+00:00
+[2025-03-27T15:59:14.798+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.113 seconds
+[2025-03-27T15:59:44.958+0100] {processor.py:161} INFO - Started process (PID=15495) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T15:59:44.960+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T15:59:44.961+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:59:44.961+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T15:59:44.975+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T15:59:45.007+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:59:45.005+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T15:59:45.030+0100] {logging_mixin.py:188} INFO - [2025-03-27T15:59:45.030+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-26 00:00:00+00:00, run_after=2025-03-27 00:00:00+00:00
+[2025-03-27T15:59:45.047+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.095 seconds
+[2025-03-27T16:00:15.209+0100] {processor.py:161} INFO - Started process (PID=15600) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:00:15.211+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:00:15.211+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:00:15.211+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:00:15.226+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:00:15.258+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:00:15.257+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:00:15.283+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:00:15.283+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-26 00:00:00+00:00, run_after=2025-03-27 00:00:00+00:00
+[2025-03-27T16:00:15.301+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.096 seconds
+[2025-03-27T16:00:45.476+0100] {processor.py:161} INFO - Started process (PID=15710) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:00:45.478+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:00:45.479+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:00:45.478+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:00:45.492+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:00:45.523+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:00:45.522+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:00:45.550+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:00:45.550+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-26 00:00:00+00:00, run_after=2025-03-27 00:00:00+00:00
+[2025-03-27T16:00:45.568+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.097 seconds
+[2025-03-27T16:01:15.794+0100] {processor.py:161} INFO - Started process (PID=15814) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:01:15.795+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:01:15.796+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:01:15.795+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:01:15.809+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:01:15.839+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:01:15.839+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:01:15.863+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:01:15.863+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-26 00:00:00+00:00, run_after=2025-03-27 00:00:00+00:00
+[2025-03-27T16:01:15.882+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.093 seconds
+[2025-03-27T16:01:46.096+0100] {processor.py:161} INFO - Started process (PID=15924) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:01:46.098+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:01:46.098+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:01:46.098+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:01:46.109+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:01:46.137+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:01:46.137+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:01:46.158+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:01:46.157+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-26 00:00:00+00:00, run_after=2025-03-27 00:00:00+00:00
+[2025-03-27T16:01:46.174+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.083 seconds
+[2025-03-27T16:02:16.392+0100] {processor.py:161} INFO - Started process (PID=16028) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:02:16.393+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:02:16.394+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:02:16.393+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:02:16.406+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:02:16.434+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:02:16.434+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:02:16.455+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:02:16.455+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-26 00:00:00+00:00, run_after=2025-03-27 00:00:00+00:00
+[2025-03-27T16:02:16.474+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.084 seconds
+[2025-03-27T16:02:46.676+0100] {processor.py:161} INFO - Started process (PID=16138) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:02:46.677+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:02:46.678+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:02:46.678+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:02:46.688+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:02:46.713+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:02:46.713+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:02:46.733+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:02:46.732+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-26 00:00:00+00:00, run_after=2025-03-27 00:00:00+00:00
+[2025-03-27T16:02:46.747+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.074 seconds
+[2025-03-27T16:03:16.934+0100] {processor.py:161} INFO - Started process (PID=16242) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:03:16.935+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:03:16.936+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:03:16.936+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:03:16.946+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:03:16.976+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:03:16.976+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:03:16.997+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:03:16.996+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-26 00:00:00+00:00, run_after=2025-03-27 00:00:00+00:00
+[2025-03-27T16:03:17.017+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.087 seconds
+[2025-03-27T16:03:47.205+0100] {processor.py:161} INFO - Started process (PID=16352) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:03:47.206+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:03:47.207+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:03:47.207+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:03:47.221+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:03:47.249+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:03:47.249+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:03:47.270+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:03:47.269+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-26 00:00:00+00:00, run_after=2025-03-27 00:00:00+00:00
+[2025-03-27T16:03:47.285+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.084 seconds
+[2025-03-27T16:04:17.507+0100] {processor.py:161} INFO - Started process (PID=16456) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:04:17.508+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:04:17.509+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:04:17.508+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:04:17.523+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:04:17.552+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:04:17.552+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:04:17.572+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:04:17.572+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-26 00:00:00+00:00, run_after=2025-03-27 00:00:00+00:00
+[2025-03-27T16:04:17.589+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.085 seconds
+[2025-03-27T16:04:47.769+0100] {processor.py:161} INFO - Started process (PID=16566) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:04:47.772+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:04:47.774+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:04:47.774+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:04:47.791+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:04:47.816+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:04:47.816+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:04:47.833+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:04:47.833+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-26 00:00:00+00:00, run_after=2025-03-27 00:00:00+00:00
+[2025-03-27T16:04:47.846+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.083 seconds
+[2025-03-27T16:05:18.064+0100] {processor.py:161} INFO - Started process (PID=16673) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:05:18.065+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:05:18.066+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:05:18.065+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:05:18.078+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:05:18.106+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:05:18.106+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:05:18.125+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:05:18.125+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-26 00:00:00+00:00, run_after=2025-03-27 00:00:00+00:00
+[2025-03-27T16:05:18.138+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.077 seconds
+[2025-03-27T16:05:48.349+0100] {processor.py:161} INFO - Started process (PID=16783) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:05:48.350+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:05:48.351+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:05:48.351+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:05:48.364+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:05:48.392+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:05:48.392+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:05:48.418+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:05:48.417+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-26 00:00:00+00:00, run_after=2025-03-27 00:00:00+00:00
+[2025-03-27T16:05:48.435+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.090 seconds
+[2025-03-27T16:06:18.632+0100] {processor.py:161} INFO - Started process (PID=16889) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:06:18.633+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:06:18.633+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:06:18.633+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:06:18.642+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:06:18.666+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:06:18.666+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:06:18.683+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:06:18.683+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-26 00:00:00+00:00, run_after=2025-03-27 00:00:00+00:00
+[2025-03-27T16:06:18.697+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.067 seconds
+[2025-03-27T16:06:48.899+0100] {processor.py:161} INFO - Started process (PID=16999) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:06:48.928+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:06:48.929+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:06:48.929+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:06:48.940+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:06:48.964+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:06:48.964+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:06:48.983+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:06:48.983+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-26 00:00:00+00:00, run_after=2025-03-27 00:00:00+00:00
+[2025-03-27T16:06:48.995+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.101 seconds
+[2025-03-27T16:07:19.210+0100] {processor.py:161} INFO - Started process (PID=17106) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:07:19.210+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:07:19.211+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:07:19.211+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:07:19.222+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:07:19.248+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:07:19.248+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:07:19.266+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:07:19.266+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-26 00:00:00+00:00, run_after=2025-03-27 00:00:00+00:00
+[2025-03-27T16:07:19.282+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.075 seconds
+[2025-03-27T16:07:49.502+0100] {processor.py:161} INFO - Started process (PID=17213) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:07:49.503+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:07:49.504+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:07:49.504+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:07:49.516+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:07:49.543+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:07:49.542+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:07:49.562+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:07:49.562+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-26 00:00:00+00:00, run_after=2025-03-27 00:00:00+00:00
+[2025-03-27T16:07:49.576+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.078 seconds
+[2025-03-27T16:08:19.771+0100] {processor.py:161} INFO - Started process (PID=17323) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:08:19.772+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:08:19.773+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:08:19.772+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:08:19.783+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:08:19.809+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:08:19.809+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:08:19.829+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:08:19.828+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-26 00:00:00+00:00, run_after=2025-03-27 00:00:00+00:00
+[2025-03-27T16:08:19.843+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.075 seconds
+[2025-03-27T16:08:50.027+0100] {processor.py:161} INFO - Started process (PID=17427) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:08:50.028+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:08:50.029+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:08:50.028+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:08:50.038+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:08:50.062+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:08:50.062+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:08:50.080+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:08:50.080+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-26 00:00:00+00:00, run_after=2025-03-27 00:00:00+00:00
+[2025-03-27T16:08:50.093+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.069 seconds
+[2025-03-27T16:09:20.314+0100] {processor.py:161} INFO - Started process (PID=17537) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:09:20.315+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:09:20.316+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:09:20.316+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:09:20.328+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:09:20.356+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:09:20.356+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:09:20.375+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:09:20.375+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-26 00:00:00+00:00, run_after=2025-03-27 00:00:00+00:00
+[2025-03-27T16:09:20.390+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.082 seconds
+[2025-03-27T16:09:50.573+0100] {processor.py:161} INFO - Started process (PID=17641) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:09:50.574+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:09:50.575+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:09:50.574+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:09:50.586+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:09:50.612+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:09:50.612+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:09:50.634+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:09:50.634+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-26 00:00:00+00:00, run_after=2025-03-27 00:00:00+00:00
+[2025-03-27T16:09:50.651+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.081 seconds
+[2025-03-27T16:10:20.837+0100] {processor.py:161} INFO - Started process (PID=17752) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:10:20.838+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:10:20.838+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:10:20.838+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:10:20.848+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:10:20.872+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:10:20.872+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:10:20.891+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:10:20.891+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-26 00:00:00+00:00, run_after=2025-03-27 00:00:00+00:00
+[2025-03-27T16:10:20.906+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.071 seconds
+[2025-03-27T16:10:51.140+0100] {processor.py:161} INFO - Started process (PID=17856) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:10:51.142+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:10:51.143+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:10:51.143+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:10:51.153+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:10:51.178+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:10:51.178+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:10:51.198+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:10:51.197+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-26 00:00:00+00:00, run_after=2025-03-27 00:00:00+00:00
+[2025-03-27T16:10:51.211+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.074 seconds
+[2025-03-27T16:11:21.427+0100] {processor.py:161} INFO - Started process (PID=17966) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:11:21.427+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:11:21.428+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:11:21.428+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:11:21.437+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:11:21.463+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:11:21.462+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:11:21.481+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:11:21.481+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-26 00:00:00+00:00, run_after=2025-03-27 00:00:00+00:00
+[2025-03-27T16:11:21.495+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.071 seconds
+[2025-03-27T16:11:51.728+0100] {processor.py:161} INFO - Started process (PID=18150) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:11:51.730+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:11:51.731+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:11:51.731+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:11:51.742+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:11:51.765+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:11:51.765+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:11:51.782+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:11:51.782+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-26 00:00:00+00:00, run_after=2025-03-27 00:00:00+00:00
+[2025-03-27T16:11:51.795+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.071 seconds
+[2025-03-27T16:12:22.006+0100] {processor.py:161} INFO - Started process (PID=18390) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:12:22.008+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:12:22.010+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:12:22.009+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:12:22.030+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:12:22.057+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:12:22.057+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:12:22.075+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:12:22.075+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T16:12:22.091+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.091 seconds
+[2025-03-27T16:12:52.258+0100] {processor.py:161} INFO - Started process (PID=18501) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:12:52.260+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:12:52.260+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:12:52.260+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:12:52.270+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:12:52.293+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:12:52.293+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:12:52.312+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:12:52.312+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T16:12:52.325+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.069 seconds
+[2025-03-27T16:13:22.499+0100] {processor.py:161} INFO - Started process (PID=18613) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:13:22.500+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:13:22.500+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:13:22.500+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:13:22.510+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:13:22.535+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:13:22.535+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:13:22.553+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:13:22.553+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T16:13:22.566+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.070 seconds
+[2025-03-27T16:13:52.798+0100] {processor.py:161} INFO - Started process (PID=18717) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:13:52.800+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:13:52.801+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:13:52.801+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:13:52.812+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:13:52.837+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:13:52.837+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:13:52.855+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:13:52.855+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T16:13:52.868+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.072 seconds
+[2025-03-27T16:14:23.050+0100] {processor.py:161} INFO - Started process (PID=18829) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:14:23.051+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:14:23.051+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:14:23.051+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:14:23.062+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:14:23.088+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:14:23.088+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:14:23.111+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:14:23.110+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T16:14:23.127+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.080 seconds
+[2025-03-27T16:14:53.299+0100] {processor.py:161} INFO - Started process (PID=18936) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:14:53.300+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:14:53.301+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:14:53.300+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:14:53.310+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:14:53.333+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:14:53.333+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:14:53.351+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:14:53.351+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T16:14:53.364+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.068 seconds
+[2025-03-27T16:15:23.559+0100] {processor.py:161} INFO - Started process (PID=19046) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:15:23.560+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:15:23.561+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:15:23.561+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:15:23.576+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:15:23.606+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:15:23.606+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:15:23.625+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:15:23.625+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T16:15:23.639+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.083 seconds
+[2025-03-27T16:15:53.837+0100] {processor.py:161} INFO - Started process (PID=19156) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:15:53.840+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:15:53.840+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:15:53.840+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:15:53.852+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:15:53.878+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:15:53.877+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:15:53.896+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:15:53.896+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T16:15:53.910+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.075 seconds
+[2025-03-27T16:16:24.077+0100] {processor.py:161} INFO - Started process (PID=19261) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:16:24.078+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:16:24.079+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:16:24.078+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:16:24.088+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:16:24.111+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:16:24.111+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:16:24.129+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:16:24.129+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T16:16:24.143+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.068 seconds
+[2025-03-27T16:16:54.322+0100] {processor.py:161} INFO - Started process (PID=19371) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:16:54.324+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:16:54.325+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:16:54.325+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:16:54.340+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:16:54.366+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:16:54.365+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:16:54.384+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:16:54.384+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T16:16:54.398+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.081 seconds
+[2025-03-27T16:17:24.581+0100] {processor.py:161} INFO - Started process (PID=19478) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:17:24.582+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:17:24.583+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:17:24.583+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:17:24.595+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:17:24.619+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:17:24.619+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:17:24.637+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:17:24.636+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T16:17:24.649+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.072 seconds
+[2025-03-27T16:17:54.812+0100] {processor.py:161} INFO - Started process (PID=19588) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:17:54.857+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:17:54.858+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:17:54.858+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:17:54.870+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:17:54.896+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:17:54.896+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:17:54.917+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:17:54.917+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T16:17:54.931+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.122 seconds
+[2025-03-27T16:18:25.064+0100] {processor.py:161} INFO - Started process (PID=19692) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:18:25.064+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:18:25.065+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:18:25.065+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:18:25.074+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:18:25.097+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:18:25.097+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:18:25.114+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:18:25.114+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T16:18:25.128+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.066 seconds
+[2025-03-27T16:18:55.325+0100] {processor.py:161} INFO - Started process (PID=19802) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:18:55.326+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:18:55.327+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:18:55.327+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:18:55.336+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:18:55.360+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:18:55.360+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:18:55.377+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:18:55.377+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T16:18:55.389+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.067 seconds
+[2025-03-27T16:19:25.579+0100] {processor.py:161} INFO - Started process (PID=19906) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:19:25.580+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:19:25.580+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:19:25.580+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:19:25.590+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:19:25.613+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:19:25.613+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:19:25.630+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:19:25.630+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T16:19:25.643+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.066 seconds
+[2025-03-27T16:19:55.830+0100] {processor.py:161} INFO - Started process (PID=20016) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:19:55.831+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:19:55.832+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:19:55.831+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:19:55.842+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:19:55.867+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:19:55.867+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:19:55.885+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:19:55.885+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T16:19:55.898+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.071 seconds
+[2025-03-27T16:20:26.097+0100] {processor.py:161} INFO - Started process (PID=20120) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:20:26.098+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:20:26.099+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:20:26.098+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:20:26.109+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:20:26.134+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:20:26.134+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:20:26.152+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:20:26.152+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T16:20:26.166+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.072 seconds
+[2025-03-27T16:20:56.378+0100] {processor.py:161} INFO - Started process (PID=20230) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:20:56.380+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:20:56.381+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:20:56.381+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:20:56.395+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:20:56.424+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:20:56.424+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:20:56.447+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:20:56.447+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T16:20:56.463+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.089 seconds
+[2025-03-27T16:21:26.630+0100] {processor.py:161} INFO - Started process (PID=20334) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:21:26.631+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:21:26.632+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:21:26.632+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:21:26.643+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:21:26.666+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:21:26.666+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:21:26.684+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:21:26.684+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T16:21:26.697+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.070 seconds
+[2025-03-27T16:21:56.900+0100] {processor.py:161} INFO - Started process (PID=20444) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:21:56.902+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:21:56.904+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:21:56.903+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:21:56.915+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:21:56.939+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:21:56.939+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:21:56.960+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:21:56.960+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T16:21:56.975+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.078 seconds
+[2025-03-27T16:22:27.122+0100] {processor.py:161} INFO - Started process (PID=20549) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:22:27.123+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:22:27.124+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:22:27.123+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:22:27.159+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:22:27.193+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:22:27.193+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:22:27.211+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:22:27.211+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T16:22:27.225+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.106 seconds
+[2025-03-27T16:22:57.395+0100] {processor.py:161} INFO - Started process (PID=20660) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:22:57.397+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:22:57.399+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:22:57.398+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:22:57.410+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:22:57.435+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:22:57.435+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:22:57.455+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:22:57.455+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T16:22:57.470+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.079 seconds
+[2025-03-27T16:23:27.648+0100] {processor.py:161} INFO - Started process (PID=20764) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:23:27.649+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:23:27.650+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:23:27.649+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:23:27.662+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:23:27.686+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:23:27.686+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:23:27.703+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:23:27.703+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T16:23:27.717+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.072 seconds
+[2025-03-27T16:23:57.911+0100] {processor.py:161} INFO - Started process (PID=20874) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:23:57.912+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:23:57.913+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:23:57.913+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:23:57.923+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:23:57.947+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:23:57.947+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:23:57.966+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:23:57.966+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T16:23:57.981+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.073 seconds
+[2025-03-27T16:24:28.204+0100] {processor.py:161} INFO - Started process (PID=20978) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:24:28.205+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:24:28.206+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:24:28.206+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:24:28.216+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:24:28.241+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:24:28.240+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:24:28.259+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:24:28.259+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T16:24:28.275+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.073 seconds
+[2025-03-27T16:24:58.456+0100] {processor.py:161} INFO - Started process (PID=21088) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:24:58.456+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:24:58.457+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:24:58.457+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:24:58.467+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:24:58.493+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:24:58.493+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:24:58.512+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:24:58.512+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T16:24:58.527+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.073 seconds
+[2025-03-27T16:25:28.701+0100] {processor.py:161} INFO - Started process (PID=21195) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:25:28.702+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:25:28.702+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:25:28.702+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:25:28.712+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:25:28.736+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:25:28.736+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:25:28.754+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:25:28.753+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T16:25:28.766+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.068 seconds
+[2025-03-27T16:25:58.972+0100] {processor.py:161} INFO - Started process (PID=21305) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:25:58.972+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:25:58.973+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:25:58.973+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:25:58.986+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:25:59.016+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:25:59.016+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:25:59.034+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:25:59.033+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T16:25:59.046+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.079 seconds
+[2025-03-27T16:26:29.274+0100] {processor.py:161} INFO - Started process (PID=21409) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:26:29.275+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:26:29.276+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:26:29.275+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:26:29.286+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:26:29.312+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:26:29.312+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:26:29.331+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:26:29.331+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T16:26:29.345+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.074 seconds
+[2025-03-27T16:26:59.573+0100] {processor.py:161} INFO - Started process (PID=21519) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:26:59.575+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:26:59.576+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:26:59.576+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:26:59.601+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:26:59.632+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:26:59.632+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:26:59.652+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:26:59.652+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T16:26:59.668+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.100 seconds
+[2025-03-27T16:27:29.857+0100] {processor.py:161} INFO - Started process (PID=21630) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:27:29.859+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:27:29.859+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:27:29.859+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:27:29.870+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:27:29.895+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:27:29.895+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:27:29.915+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:27:29.914+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T16:27:29.930+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.075 seconds
+[2025-03-27T16:28:00.181+0100] {processor.py:161} INFO - Started process (PID=21734) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:28:00.183+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:28:00.184+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:28:00.183+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:28:00.196+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:28:00.222+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:28:00.221+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:28:00.240+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:28:00.240+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T16:28:00.253+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.076 seconds
+[2025-03-27T16:28:30.501+0100] {processor.py:161} INFO - Started process (PID=21844) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:28:30.502+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:28:30.502+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:28:30.502+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:28:30.512+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:28:30.536+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:28:30.536+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:28:30.554+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:28:30.554+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T16:28:30.566+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.068 seconds
+[2025-03-27T16:29:00.754+0100] {processor.py:161} INFO - Started process (PID=21948) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:29:00.756+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:29:00.758+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:29:00.757+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:29:00.783+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:29:00.816+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:29:00.816+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:29:00.835+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:29:00.835+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T16:29:00.848+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.098 seconds
+[2025-03-27T16:29:31.045+0100] {processor.py:161} INFO - Started process (PID=22058) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:29:31.046+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:29:31.047+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:29:31.046+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:29:31.058+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:29:31.082+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:29:31.082+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:29:31.099+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:29:31.099+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T16:29:31.112+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.070 seconds
+[2025-03-27T16:30:01.326+0100] {processor.py:161} INFO - Started process (PID=22162) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:30:01.367+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:30:01.370+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:30:01.369+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:30:01.382+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:30:01.410+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:30:01.409+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:30:01.429+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:30:01.428+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T16:30:01.442+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.119 seconds
+[2025-03-27T16:30:31.611+0100] {processor.py:161} INFO - Started process (PID=22272) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:30:31.612+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:30:31.612+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:30:31.612+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:30:31.623+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:30:31.649+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:30:31.649+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:30:31.667+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:30:31.667+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T16:30:31.681+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.073 seconds
+[2025-03-27T16:31:01.887+0100] {processor.py:161} INFO - Started process (PID=22376) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:31:01.923+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:31:01.924+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:31:01.924+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:31:01.934+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:31:01.961+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:31:01.961+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:31:01.982+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:31:01.982+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T16:31:01.996+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.114 seconds
+[2025-03-27T16:31:32.143+0100] {processor.py:161} INFO - Started process (PID=22486) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T16:31:32.144+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T16:31:32.145+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:31:32.144+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:31:32.155+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T16:31:32.183+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:31:32.183+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T16:31:32.204+0100] {logging_mixin.py:188} INFO - [2025-03-27T16:31:32.204+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T16:31:32.220+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.081 seconds
+[2025-03-27T19:54:22.941+0100] {processor.py:161} INFO - Started process (PID=22528) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T19:54:22.948+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T19:54:22.952+0100] {logging_mixin.py:188} INFO - [2025-03-27T19:54:22.951+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T19:54:24.408+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T19:54:25.574+0100] {logging_mixin.py:188} INFO - [2025-03-27T19:54:25.574+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T19:54:25.842+0100] {logging_mixin.py:188} INFO - [2025-03-27T19:54:25.830+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T19:54:26.129+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 3.255 seconds
+[2025-03-27T19:54:56.938+0100] {processor.py:161} INFO - Started process (PID=22609) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T19:54:56.941+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T19:54:56.943+0100] {logging_mixin.py:188} INFO - [2025-03-27T19:54:56.942+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T19:54:56.976+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T19:54:57.069+0100] {logging_mixin.py:188} INFO - [2025-03-27T19:54:57.068+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T19:54:57.149+0100] {logging_mixin.py:188} INFO - [2025-03-27T19:54:57.148+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T19:54:57.201+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.272 seconds
+[2025-03-27T19:55:27.482+0100] {processor.py:161} INFO - Started process (PID=22634) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T19:55:27.485+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T19:55:27.487+0100] {logging_mixin.py:188} INFO - [2025-03-27T19:55:27.486+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T19:55:27.524+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T19:55:27.623+0100] {logging_mixin.py:188} INFO - [2025-03-27T19:55:27.622+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T19:55:27.701+0100] {logging_mixin.py:188} INFO - [2025-03-27T19:55:27.700+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T19:55:27.751+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.284 seconds
+[2025-03-27T19:55:58.774+0100] {processor.py:161} INFO - Started process (PID=22654) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T19:55:58.777+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T19:55:58.780+0100] {logging_mixin.py:188} INFO - [2025-03-27T19:55:58.779+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T19:55:58.816+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T19:55:58.934+0100] {logging_mixin.py:188} INFO - [2025-03-27T19:55:58.933+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T19:55:59.033+0100] {logging_mixin.py:188} INFO - [2025-03-27T19:55:59.032+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T19:55:59.092+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.328 seconds
+[2025-03-27T19:56:29.387+0100] {processor.py:161} INFO - Started process (PID=22687) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T19:56:29.389+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T19:56:29.391+0100] {logging_mixin.py:188} INFO - [2025-03-27T19:56:29.391+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T19:56:29.419+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T19:56:29.496+0100] {logging_mixin.py:188} INFO - [2025-03-27T19:56:29.495+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T19:56:29.571+0100] {logging_mixin.py:188} INFO - [2025-03-27T19:56:29.570+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T19:56:29.615+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.237 seconds
+[2025-03-27T19:56:59.693+0100] {processor.py:161} INFO - Started process (PID=22710) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T19:56:59.696+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T19:56:59.699+0100] {logging_mixin.py:188} INFO - [2025-03-27T19:56:59.698+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T19:56:59.741+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T19:56:59.832+0100] {logging_mixin.py:188} INFO - [2025-03-27T19:56:59.831+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T19:56:59.913+0100] {logging_mixin.py:188} INFO - [2025-03-27T19:56:59.912+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T19:56:59.961+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.278 seconds
+[2025-03-27T19:57:30.579+0100] {processor.py:161} INFO - Started process (PID=22736) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T19:57:30.581+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T19:57:30.583+0100] {logging_mixin.py:188} INFO - [2025-03-27T19:57:30.582+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T19:57:30.607+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T19:57:30.680+0100] {logging_mixin.py:188} INFO - [2025-03-27T19:57:30.680+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T19:57:30.730+0100] {logging_mixin.py:188} INFO - [2025-03-27T19:57:30.729+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T19:57:30.771+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.201 seconds
+[2025-03-27T19:58:01.592+0100] {processor.py:161} INFO - Started process (PID=22756) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T19:58:01.596+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T19:58:01.598+0100] {logging_mixin.py:188} INFO - [2025-03-27T19:58:01.597+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T19:58:01.621+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T19:58:01.687+0100] {logging_mixin.py:188} INFO - [2025-03-27T19:58:01.686+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T19:58:01.730+0100] {logging_mixin.py:188} INFO - [2025-03-27T19:58:01.730+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T19:58:01.767+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.182 seconds
+[2025-03-27T19:58:31.965+0100] {processor.py:161} INFO - Started process (PID=22776) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T19:58:31.968+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T19:58:31.971+0100] {logging_mixin.py:188} INFO - [2025-03-27T19:58:31.970+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T19:58:32.008+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T19:58:32.093+0100] {logging_mixin.py:188} INFO - [2025-03-27T19:58:32.092+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T19:58:32.157+0100] {logging_mixin.py:188} INFO - [2025-03-27T19:58:32.156+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T19:58:32.192+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.237 seconds
+[2025-03-27T19:59:03.077+0100] {processor.py:161} INFO - Started process (PID=22796) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T19:59:03.085+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T19:59:03.088+0100] {logging_mixin.py:188} INFO - [2025-03-27T19:59:03.087+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T19:59:03.138+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T19:59:03.247+0100] {logging_mixin.py:188} INFO - [2025-03-27T19:59:03.246+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T19:59:03.362+0100] {logging_mixin.py:188} INFO - [2025-03-27T19:59:03.361+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T19:59:03.425+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.369 seconds
+[2025-03-27T19:59:33.615+0100] {processor.py:161} INFO - Started process (PID=22819) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T19:59:33.617+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T19:59:33.620+0100] {logging_mixin.py:188} INFO - [2025-03-27T19:59:33.619+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T19:59:33.654+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T19:59:33.762+0100] {logging_mixin.py:188} INFO - [2025-03-27T19:59:33.761+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T19:59:33.841+0100] {logging_mixin.py:188} INFO - [2025-03-27T19:59:33.840+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T19:59:33.893+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.287 seconds
+[2025-03-27T20:00:04.016+0100] {processor.py:161} INFO - Started process (PID=22845) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:00:04.020+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:00:04.023+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:00:04.022+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:00:04.068+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:00:04.155+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:00:04.154+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:00:04.221+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:00:04.221+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:00:04.271+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.265 seconds
+[2025-03-27T20:00:34.542+0100] {processor.py:161} INFO - Started process (PID=22865) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:00:34.544+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:00:34.546+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:00:34.545+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:00:34.574+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:00:34.667+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:00:34.666+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:00:34.749+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:00:34.749+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:00:34.801+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.266 seconds
+[2025-03-27T20:01:05.073+0100] {processor.py:161} INFO - Started process (PID=22887) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:01:05.126+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:01:05.128+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:01:05.127+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:01:05.162+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:01:05.262+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:01:05.261+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:01:05.353+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:01:05.352+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:01:05.414+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.352 seconds
+[2025-03-27T20:01:36.239+0100] {processor.py:161} INFO - Started process (PID=22907) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:01:36.242+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:01:36.246+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:01:36.244+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:01:36.288+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:01:36.405+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:01:36.405+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:01:36.487+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:01:36.486+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:01:36.547+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.326 seconds
+[2025-03-27T20:02:07.390+0100] {processor.py:161} INFO - Started process (PID=22928) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:02:07.427+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:02:07.429+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:02:07.428+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:02:07.465+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:02:07.553+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:02:07.552+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:02:07.614+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:02:07.613+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:02:07.653+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.275 seconds
+[2025-03-27T20:02:38.257+0100] {processor.py:161} INFO - Started process (PID=22954) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:02:38.260+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:02:38.262+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:02:38.261+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:02:38.290+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:02:38.363+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:02:38.362+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:02:38.417+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:02:38.416+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:02:38.462+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.214 seconds
+[2025-03-27T20:03:08.613+0100] {processor.py:161} INFO - Started process (PID=22976) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:03:08.617+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:03:08.620+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:03:08.619+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:03:08.673+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:03:08.786+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:03:08.785+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:03:08.901+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:03:08.900+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:03:08.971+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.370 seconds
+[2025-03-27T20:03:39.161+0100] {processor.py:161} INFO - Started process (PID=22996) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:03:39.163+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:03:39.166+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:03:39.165+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:03:39.198+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:03:39.296+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:03:39.295+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:03:39.372+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:03:39.371+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:03:39.435+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.283 seconds
+[2025-03-27T20:04:09.620+0100] {processor.py:161} INFO - Started process (PID=23016) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:04:09.624+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:04:09.627+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:04:09.626+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:04:09.673+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:04:09.757+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:04:09.757+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:04:09.823+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:04:09.823+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:04:09.869+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.261 seconds
+[2025-03-27T20:04:40.160+0100] {processor.py:161} INFO - Started process (PID=23038) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:04:40.165+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:04:40.170+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:04:40.167+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:04:40.209+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:04:40.306+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:04:40.306+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:04:40.372+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:04:40.372+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:04:40.418+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.273 seconds
+[2025-03-27T20:05:11.377+0100] {processor.py:161} INFO - Started process (PID=23073) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:05:11.381+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:05:11.384+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:05:11.383+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:05:11.422+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:05:11.519+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:05:11.518+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:05:11.603+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:05:11.602+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:05:11.640+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.273 seconds
+[2025-03-27T20:05:41.711+0100] {processor.py:161} INFO - Started process (PID=23093) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:05:41.713+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:05:41.715+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:05:41.714+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:05:41.740+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:05:41.813+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:05:41.813+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:05:41.871+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:05:41.870+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:05:41.930+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.229 seconds
+[2025-03-27T20:06:12.932+0100] {processor.py:161} INFO - Started process (PID=23114) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:06:12.971+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:06:12.974+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:06:12.973+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:06:13.015+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:06:13.104+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:06:13.103+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:06:13.179+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:06:13.178+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:06:13.228+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.307 seconds
+[2025-03-27T20:06:43.461+0100] {processor.py:161} INFO - Started process (PID=23136) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:06:43.465+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:06:43.466+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:06:43.466+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:06:43.491+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:06:43.569+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:06:43.568+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:06:43.637+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:06:43.636+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:06:43.685+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.238 seconds
+[2025-03-27T20:07:13.943+0100] {processor.py:161} INFO - Started process (PID=23157) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:07:13.945+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:07:13.948+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:07:13.947+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:07:14.022+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:07:14.154+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:07:14.153+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:07:14.253+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:07:14.252+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:07:14.315+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.391 seconds
+[2025-03-27T20:07:44.687+0100] {processor.py:161} INFO - Started process (PID=23183) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:07:44.691+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:07:44.694+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:07:44.693+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:07:44.753+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:07:44.854+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:07:44.854+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:07:44.932+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:07:44.931+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:07:44.990+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.322 seconds
+[2025-03-27T20:08:15.244+0100] {processor.py:161} INFO - Started process (PID=23205) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:08:15.247+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:08:15.249+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:08:15.248+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:08:15.294+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:08:15.398+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:08:15.397+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:08:15.483+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:08:15.482+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:08:15.541+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.307 seconds
+[2025-03-27T20:08:45.918+0100] {processor.py:161} INFO - Started process (PID=23225) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:08:45.959+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:08:45.963+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:08:45.962+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:08:46.007+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:08:46.106+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:08:46.105+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:08:46.204+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:08:46.203+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:08:46.269+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.364 seconds
+[2025-03-27T20:09:16.385+0100] {processor.py:161} INFO - Started process (PID=23245) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:09:16.388+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:09:16.390+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:09:16.389+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:09:16.420+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:09:16.507+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:09:16.506+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:09:16.577+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:09:16.576+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:09:16.626+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.253 seconds
+[2025-03-27T20:09:46.801+0100] {processor.py:161} INFO - Started process (PID=23267) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:09:46.805+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:09:46.808+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:09:46.807+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:09:46.846+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:09:46.966+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:09:46.964+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:09:47.068+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:09:47.068+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:09:47.128+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.337 seconds
+[2025-03-27T20:10:17.342+0100] {processor.py:161} INFO - Started process (PID=23287) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:10:17.344+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:10:17.346+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:10:17.346+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:10:17.376+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:10:17.468+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:10:17.468+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:10:17.543+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:10:17.542+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:10:17.599+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.266 seconds
+[2025-03-27T20:10:47.870+0100] {processor.py:161} INFO - Started process (PID=23315) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:10:47.904+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:10:47.907+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:10:47.906+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:10:47.935+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:10:48.028+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:10:48.026+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:10:48.100+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:10:48.099+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:10:48.144+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.283 seconds
+[2025-03-27T20:11:18.397+0100] {processor.py:161} INFO - Started process (PID=23335) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:11:18.400+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:11:18.403+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:11:18.402+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:11:18.436+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:11:18.507+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:11:18.506+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:11:18.574+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:11:18.574+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:11:18.622+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.236 seconds
+[2025-03-27T20:11:48.901+0100] {processor.py:161} INFO - Started process (PID=23357) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:11:48.929+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:11:48.931+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:11:48.930+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:11:48.969+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:11:49.053+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:11:49.052+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:11:49.144+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:11:49.143+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:11:49.197+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.312 seconds
+[2025-03-27T20:12:20.068+0100] {processor.py:161} INFO - Started process (PID=23377) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:12:20.071+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:12:20.072+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:12:20.072+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:12:20.097+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:12:20.168+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:12:20.167+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:12:20.223+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:12:20.222+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:12:20.269+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.209 seconds
+[2025-03-27T20:12:50.339+0100] {processor.py:161} INFO - Started process (PID=23398) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:12:50.343+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:12:50.346+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:12:50.345+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:12:50.390+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:12:50.480+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:12:50.480+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:12:50.552+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:12:50.551+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:12:50.600+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.271 seconds
+[2025-03-27T20:13:21.854+0100] {processor.py:161} INFO - Started process (PID=23426) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:13:21.857+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:13:21.859+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:13:21.858+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:13:21.898+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:13:21.996+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:13:21.995+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:13:22.066+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:13:22.066+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:13:22.113+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.273 seconds
+[2025-03-27T20:13:52.698+0100] {processor.py:161} INFO - Started process (PID=23446) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:13:52.702+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:13:52.705+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:13:52.704+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:13:52.739+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:13:52.821+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:13:52.821+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:13:52.872+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:13:52.871+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:13:52.919+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.230 seconds
+[2025-03-27T20:14:23.139+0100] {processor.py:161} INFO - Started process (PID=23466) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:14:23.142+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:14:23.145+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:14:23.144+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:14:23.181+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:14:23.275+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:14:23.274+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:14:23.344+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:14:23.344+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:14:23.391+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.264 seconds
+[2025-03-27T20:14:53.634+0100] {processor.py:161} INFO - Started process (PID=23486) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:14:53.638+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:14:53.641+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:14:53.640+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:14:53.678+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:14:53.765+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:14:53.764+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:14:53.856+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:14:53.855+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:14:53.915+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.292 seconds
+[2025-03-27T20:15:24.212+0100] {processor.py:161} INFO - Started process (PID=23511) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:15:24.214+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:15:24.217+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:15:24.216+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:15:24.243+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:15:24.335+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:15:24.335+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:15:24.402+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:15:24.402+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:15:24.453+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.248 seconds
+[2025-03-27T20:15:54.871+0100] {processor.py:161} INFO - Started process (PID=23537) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:15:54.919+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:15:54.921+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:15:54.920+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:15:54.954+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:15:55.074+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:15:55.074+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:15:55.167+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:15:55.166+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:15:55.222+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.363 seconds
+[2025-03-27T20:16:10.839+0100] {processor.py:161} INFO - Started process (PID=23544) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:16:10.841+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:16:10.844+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:16:10.843+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:16:10.886+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:16:10.982+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:16:10.982+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:16:11.057+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:16:11.056+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:16:11.102+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.274 seconds
+[2025-03-27T20:16:42.173+0100] {processor.py:161} INFO - Started process (PID=23603) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:16:42.177+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:16:42.180+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:16:42.179+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:16:42.232+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:16:42.319+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:16:42.318+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:16:42.412+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:16:42.411+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:16:42.475+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.316 seconds
+[2025-03-27T20:17:12.692+0100] {processor.py:161} INFO - Started process (PID=23706) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:17:12.696+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:17:12.698+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:17:12.697+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:17:12.734+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:17:12.838+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:17:12.837+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:17:12.924+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:17:12.923+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:17:12.982+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.299 seconds
+[2025-03-27T20:17:43.285+0100] {processor.py:161} INFO - Started process (PID=23726) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:17:43.289+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:17:43.291+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:17:43.290+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:17:43.318+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:17:43.385+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:17:43.385+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:17:43.429+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:17:43.428+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:17:43.469+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.192 seconds
+[2025-03-27T20:18:13.866+0100] {processor.py:161} INFO - Started process (PID=23750) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:18:13.868+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:18:13.871+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:18:13.870+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:18:13.928+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:18:14.036+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:18:14.035+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:18:14.123+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:18:14.122+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:18:14.179+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.323 seconds
+[2025-03-27T20:18:44.347+0100] {processor.py:161} INFO - Started process (PID=23777) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:18:44.350+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:18:44.352+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:18:44.352+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:18:44.383+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:18:44.478+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:18:44.477+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:18:44.552+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:18:44.552+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:18:44.606+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.268 seconds
+[2025-03-27T20:19:14.814+0100] {processor.py:161} INFO - Started process (PID=23798) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:19:14.816+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:19:14.818+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:19:14.817+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:19:14.859+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:19:14.949+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:19:14.949+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:19:15.020+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:19:15.019+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:19:15.070+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.265 seconds
+[2025-03-27T20:19:45.252+0100] {processor.py:161} INFO - Started process (PID=23817) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:19:45.256+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:19:45.260+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:19:45.259+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:19:45.296+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:19:45.377+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:19:45.376+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:19:45.439+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:19:45.438+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:19:45.490+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.247 seconds
+[2025-03-27T20:20:15.683+0100] {processor.py:161} INFO - Started process (PID=23840) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:20:15.726+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:20:15.729+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:20:15.728+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:20:15.774+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:20:15.860+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:20:15.860+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:20:15.925+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:20:15.925+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:20:15.968+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.292 seconds
+[2025-03-27T20:20:46.071+0100] {processor.py:161} INFO - Started process (PID=23859) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:20:46.073+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:20:46.075+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:20:46.074+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:20:46.106+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:20:46.235+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:20:46.234+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:20:46.345+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:20:46.344+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:20:46.406+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.344 seconds
+[2025-03-27T20:21:16.569+0100] {processor.py:161} INFO - Started process (PID=23886) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:21:16.580+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:21:16.582+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:21:16.582+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:21:16.607+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:21:16.673+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:21:16.673+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:21:16.726+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:21:16.726+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:21:16.771+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.209 seconds
+[2025-03-27T20:21:47.056+0100] {processor.py:161} INFO - Started process (PID=23905) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:21:47.058+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:21:47.059+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:21:47.059+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:21:47.081+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:21:47.153+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:21:47.153+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:21:47.205+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:21:47.204+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:21:47.249+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.200 seconds
+[2025-03-27T20:22:17.637+0100] {processor.py:161} INFO - Started process (PID=23928) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:22:17.641+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:22:17.644+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:22:17.643+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:22:17.684+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:22:17.790+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:22:17.789+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:22:17.854+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:22:17.854+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:22:17.900+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.270 seconds
+[2025-03-27T20:22:48.351+0100] {processor.py:161} INFO - Started process (PID=23948) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:22:48.353+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:22:48.355+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:22:48.355+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:22:48.390+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:22:48.459+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:22:48.458+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:22:48.526+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:22:48.526+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:22:48.573+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.232 seconds
+[2025-03-27T20:23:18.640+0100] {processor.py:161} INFO - Started process (PID=23968) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:23:18.644+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:23:18.646+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:23:18.645+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:23:18.682+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:23:18.786+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:23:18.785+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:23:18.883+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:23:18.882+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:23:18.930+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.301 seconds
+[2025-03-27T20:23:49.868+0100] {processor.py:161} INFO - Started process (PID=24006) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:23:49.873+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:23:49.878+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:23:49.876+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:23:49.932+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:23:50.053+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:23:50.052+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:23:50.144+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:23:50.143+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:23:50.202+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.353 seconds
+[2025-03-27T20:24:20.573+0100] {processor.py:161} INFO - Started process (PID=24120) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:24:20.596+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:24:20.599+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:24:20.598+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:24:20.632+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:24:20.710+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:24:20.709+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:24:20.786+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:24:20.785+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:24:20.827+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.265 seconds
+[2025-03-27T20:24:50.934+0100] {processor.py:161} INFO - Started process (PID=24145) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:24:50.938+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:24:50.941+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:24:50.940+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:24:50.979+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:24:51.079+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:24:51.079+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:24:51.157+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:24:51.157+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:24:51.201+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.273 seconds
+[2025-03-27T20:25:21.423+0100] {processor.py:161} INFO - Started process (PID=24170) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:25:21.430+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:25:21.435+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:25:21.433+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:25:21.475+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:25:21.586+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:25:21.585+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:25:21.680+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:25:21.679+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:25:21.732+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.328 seconds
+[2025-03-27T20:25:51.947+0100] {processor.py:161} INFO - Started process (PID=24192) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:25:51.953+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:25:51.956+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:25:51.955+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:25:52.015+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:25:52.119+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:25:52.118+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:25:52.206+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:25:52.205+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:25:52.260+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.326 seconds
+[2025-03-27T20:26:22.407+0100] {processor.py:161} INFO - Started process (PID=24220) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:26:22.447+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:26:22.450+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:26:22.449+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:26:22.496+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:26:22.596+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:26:22.595+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:26:22.657+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:26:22.656+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:26:22.708+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.306 seconds
+[2025-03-27T20:26:52.835+0100] {processor.py:161} INFO - Started process (PID=24240) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:26:52.876+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:26:52.879+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:26:52.878+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:26:52.917+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:26:53.005+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:26:53.004+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:26:53.096+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:26:53.095+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:26:53.167+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.345 seconds
+[2025-03-27T20:27:23.366+0100] {processor.py:161} INFO - Started process (PID=24262) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:27:23.370+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:27:23.375+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:27:23.373+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:27:23.440+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:27:23.534+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:27:23.533+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:27:23.618+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:27:23.617+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:27:23.694+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.343 seconds
+[2025-03-27T20:27:55.018+0100] {processor.py:161} INFO - Started process (PID=24282) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:27:55.021+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:27:55.023+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:27:55.022+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:27:55.075+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:27:55.188+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:27:55.187+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:27:55.271+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:27:55.270+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:27:55.333+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.326 seconds
+[2025-03-27T20:28:25.691+0100] {processor.py:161} INFO - Started process (PID=24302) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:28:25.695+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:28:25.698+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:28:25.697+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:28:25.761+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:28:25.881+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:28:25.880+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:28:25.974+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:28:25.973+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:28:26.036+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.364 seconds
+[2025-03-27T20:28:56.202+0100] {processor.py:161} INFO - Started process (PID=24331) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:28:56.204+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:28:56.206+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:28:56.206+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:28:56.241+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:28:56.333+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:28:56.333+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:28:56.397+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:28:56.396+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:28:56.453+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.261 seconds
+[2025-03-27T20:29:02.937+0100] {processor.py:161} INFO - Started process (PID=24337) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:29:02.944+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:29:02.948+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:29:02.946+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:29:02.993+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:29:03.090+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:29:03.090+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:29:03.171+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:29:03.170+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:29:03.226+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.308 seconds
+[2025-03-27T20:29:33.611+0100] {processor.py:161} INFO - Started process (PID=24454) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:29:33.624+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:29:33.626+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:29:33.625+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:29:33.661+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:29:33.806+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:29:33.805+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:29:33.880+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:29:33.879+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:29:33.942+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.344 seconds
+[2025-03-27T20:30:04.238+0100] {processor.py:161} INFO - Started process (PID=24481) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:30:04.240+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:30:04.242+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:30:04.241+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:30:04.276+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:30:04.351+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:30:04.351+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:30:04.398+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:30:04.397+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:30:04.441+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.214 seconds
+[2025-03-27T20:30:34.880+0100] {processor.py:161} INFO - Started process (PID=24502) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:30:34.912+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:30:34.916+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:30:34.915+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:30:34.998+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:30:35.151+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:30:35.150+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:30:35.266+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:30:35.265+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:30:35.368+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.502 seconds
+[2025-03-27T20:31:06.357+0100] {processor.py:161} INFO - Started process (PID=24523) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:31:06.360+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:31:06.363+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:31:06.362+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:31:06.415+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:31:06.526+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:31:06.525+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:31:06.602+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:31:06.602+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:31:06.658+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.317 seconds
+[2025-03-27T20:31:37.071+0100] {processor.py:161} INFO - Started process (PID=24550) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:31:37.115+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:31:37.118+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:31:37.117+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:31:37.169+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:31:37.263+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:31:37.262+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:31:37.327+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:31:37.327+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:31:37.387+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.330 seconds
+[2025-03-27T20:32:07.462+0100] {processor.py:161} INFO - Started process (PID=24572) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:32:07.465+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:32:07.467+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:32:07.466+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:32:07.504+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:32:07.612+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:32:07.611+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:32:07.692+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:32:07.691+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:32:07.754+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.305 seconds
+[2025-03-27T20:32:22.556+0100] {processor.py:161} INFO - Started process (PID=24591) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:32:22.612+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:32:22.615+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:32:22.614+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:32:22.668+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:32:22.782+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:32:22.781+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:32:22.886+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:32:22.885+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:32:22.953+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.411 seconds
+[2025-03-27T20:32:53.396+0100] {processor.py:161} INFO - Started process (PID=24708) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:32:53.399+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:32:53.402+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:32:53.401+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:32:53.441+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:32:53.532+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:32:53.531+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:32:53.627+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:32:53.626+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:32:54.311+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.295 seconds
+[2025-03-27T20:33:24.734+0100] {processor.py:161} INFO - Started process (PID=24732) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:33:24.739+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:33:24.743+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:33:24.742+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:33:24.782+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:33:24.885+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:33:24.884+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:33:24.967+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:33:24.966+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:33:25.038+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.320 seconds
+[2025-03-27T20:33:55.298+0100] {processor.py:161} INFO - Started process (PID=24754) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:33:55.304+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:33:55.307+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:33:55.306+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:33:55.362+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:33:55.453+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:33:55.452+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:33:55.521+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:33:55.521+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:33:55.593+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.310 seconds
+[2025-03-27T20:34:25.711+0100] {processor.py:161} INFO - Started process (PID=24783) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:34:25.715+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:34:25.719+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:34:25.717+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:34:25.771+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:34:25.884+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:34:25.884+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:34:25.987+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:34:25.987+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:34:26.037+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.338 seconds
+[2025-03-27T20:34:56.653+0100] {processor.py:161} INFO - Started process (PID=24803) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:34:56.657+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:34:56.662+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:34:56.660+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:34:56.709+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:34:56.826+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:34:56.825+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:34:56.930+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:34:56.929+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:34:56.999+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.364 seconds
+[2025-03-27T20:35:27.164+0100] {processor.py:161} INFO - Started process (PID=24828) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:35:27.218+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:35:27.221+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:35:27.220+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:35:27.261+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:35:27.368+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:35:27.367+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:35:27.432+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:35:27.431+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:35:27.474+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.324 seconds
+[2025-03-27T20:35:57.740+0100] {processor.py:161} INFO - Started process (PID=24848) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:35:57.743+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:35:57.746+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:35:57.745+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:35:57.789+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:35:57.883+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:35:57.883+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:35:57.950+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:35:57.949+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:35:57.987+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.257 seconds
+[2025-03-27T20:36:28.991+0100] {processor.py:161} INFO - Started process (PID=24882) to work on /home/philip/airflow/dags/complete.py
+[2025-03-27T20:36:28.997+0100] {processor.py:830} INFO - Processing file /home/philip/airflow/dags/complete.py for tasks to queue
+[2025-03-27T20:36:29.000+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:36:28.999+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:36:29.055+0100] {processor.py:840} INFO - DAG(s) 'test_dag2' retrieved from /home/philip/airflow/dags/complete.py
+[2025-03-27T20:36:29.175+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:36:29.175+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-03-27T20:36:29.253+0100] {logging_mixin.py:188} INFO - [2025-03-27T20:36:29.253+0100] {dag.py:3823} INFO - Setting next_dagrun for test_dag2 to 2025-03-27 00:00:00+00:00, run_after=2025-03-28 00:00:00+00:00
+[2025-03-27T20:36:29.305+0100] {processor.py:183} INFO - Processing /home/philip/airflow/dags/complete.py took 0.332 seconds

@@ -1,0 +1,45 @@
+[2025-03-31T14:29:32.366+0100] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: test_dag2.move_to_transformation manual__2025-03-31T13:29:23.647601+00:00 [queued]>
+[2025-03-31T14:29:32.382+0100] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: test_dag2.move_to_transformation manual__2025-03-31T13:29:23.647601+00:00 [queued]>
+[2025-03-31T14:29:32.383+0100] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-03-31T14:29:32.408+0100] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): move_to_transformation> on 2025-03-31 13:29:23.647601+00:00
+[2025-03-31T14:29:32.414+0100] {standard_task_runner.py:60} INFO - Started process 19073 to run task
+[2025-03-31T14:29:32.422+0100] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'test_dag2', 'move_to_transformation', 'manual__2025-03-31T13:29:23.647601+00:00', '--job-id', '214', '--raw', '--subdir', 'DAGS_FOLDER/test_dag2.py', '--cfg-path', '/tmp/tmpe8g63jsq']
+[2025-03-31T14:29:32.426+0100] {standard_task_runner.py:88} INFO - Job 214: Subtask move_to_transformation
+[2025-03-31T14:29:32.548+0100] {task_command.py:423} INFO - Running <TaskInstance: test_dag2.move_to_transformation manual__2025-03-31T13:29:23.647601+00:00 [running]> on host LAPTOP-A4DHQTS9.
+[2025-03-31T14:29:32.735+0100] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='test_dag2' AIRFLOW_CTX_TASK_ID='move_to_transformation' AIRFLOW_CTX_EXECUTION_DATE='2025-03-31T13:29:23.647601+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-31T13:29:23.647601+00:00'
+[2025-03-31T14:29:32.767+0100] {base.py:83} INFO - Using connection ID 'destination_db' for task execution.
+[2025-03-31T14:29:32.785+0100] {sql.py:450} INFO - Running statement: 
+        SELECT column_name, data_type
+        FROM information_schema.columns
+        WHERE table_name = 'stg_prog3';
+    , parameters: None
+[2025-03-31T14:29:32.801+0100] {sql.py:459} INFO - Rows affected: 4
+[2025-03-31T14:29:32.820+0100] {base.py:83} INFO - Using connection ID 'destination_db' for task execution.
+[2025-03-31T14:29:32.833+0100] {sql.py:450} INFO - Running statement: 
+        CREATE TABLE IF NOT EXISTS transformation.trans_prog3 ("lastupdated" "timestamp without time zone", "uid" "character varying", "Area (H)" "text", "farmers" "text");
+    , parameters: None
+[2025-03-31T14:29:32.836+0100] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/philip/de_engineering/airflow_projects/airflow1/venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/philip/de_engineering/airflow_projects/airflow1/venv/lib/python3.10/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/philip/de_engineering/airflow_projects/airflow1/venv/lib/python3.10/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/philip/airflow/dags/test_dag2.py", line 83, in move_to_transformation
+    dest_pg_hook.run(create_table_query)
+  File "/home/philip/de_engineering/airflow_projects/airflow1/venv/lib/python3.10/site-packages/airflow/providers/common/sql/hooks/sql.py", line 398, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/philip/de_engineering/airflow_projects/airflow1/venv/lib/python3.10/site-packages/airflow/providers/common/sql/hooks/sql.py", line 455, in _run_command
+    cur.execute(sql_statement)
+psycopg2.errors.UndefinedObject: type "timestamp without time zone" does not exist
+LINE 2: ... EXISTS transformation.trans_prog3 ("lastupdated" "timestamp...
+                                                             ^
+
+[2025-03-31T14:29:32.861+0100] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=test_dag2, task_id=move_to_transformation, execution_date=20250331T132923, start_date=20250331T132932, end_date=20250331T132932
+[2025-03-31T14:29:32.888+0100] {standard_task_runner.py:107} ERROR - Failed to execute job 214 for task move_to_transformation (type "timestamp without time zone" does not exist
+LINE 2: ... EXISTS transformation.trans_prog3 ("lastupdated" "timestamp...
+                                                             ^
+; 19073)
+[2025-03-31T14:29:32.917+0100] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-03-31T14:29:32.957+0100] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
