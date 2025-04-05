@@ -1,0 +1,22 @@
+[2025-03-31T11:06:35.412+0100] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: test_dag2.move_to_transformation manual__2025-03-31T10:06:28.303590+00:00 [queued]>
+[2025-03-31T11:06:35.437+0100] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: test_dag2.move_to_transformation manual__2025-03-31T10:06:28.303590+00:00 [queued]>
+[2025-03-31T11:06:35.438+0100] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-03-31T11:06:35.476+0100] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): move_to_transformation> on 2025-03-31 10:06:28.303590+00:00
+[2025-03-31T11:06:35.484+0100] {standard_task_runner.py:60} INFO - Started process 3100 to run task
+[2025-03-31T11:06:35.494+0100] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'test_dag2', 'move_to_transformation', 'manual__2025-03-31T10:06:28.303590+00:00', '--job-id', '182', '--raw', '--subdir', 'DAGS_FOLDER/test_dag2.py', '--cfg-path', '/tmp/tmpzbtm4jes']
+[2025-03-31T11:06:35.498+0100] {standard_task_runner.py:88} INFO - Job 182: Subtask move_to_transformation
+[2025-03-31T11:06:35.643+0100] {task_command.py:423} INFO - Running <TaskInstance: test_dag2.move_to_transformation manual__2025-03-31T10:06:28.303590+00:00 [running]> on host LAPTOP-A4DHQTS9.
+[2025-03-31T11:06:35.889+0100] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='test_dag2' AIRFLOW_CTX_TASK_ID='move_to_transformation' AIRFLOW_CTX_EXECUTION_DATE='2025-03-31T10:06:28.303590+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-31T10:06:28.303590+00:00'
+[2025-03-31T11:06:35.934+0100] {base.py:83} INFO - Using connection ID 'destination_db' for task execution.
+[2025-03-31T11:06:35.956+0100] {sql.py:450} INFO - Running statement: 
+        INSERT INTO transformation.trans_prog3
+        SELECT * FROM staging.stg_prog3
+        ON CONFLICT (uid) DO UPDATE 
+        SET lastupdated = EXCLUDED.lastupdated
+        WHERE transformation.trans_prog3.lastupdated < EXCLUDED.lastupdated;
+    , parameters: None
+[2025-03-31T11:06:35.963+0100] {sql.py:459} INFO - Rows affected: 1
+[2025-03-31T11:06:35.966+0100] {python.py:201} INFO - Done. Returned value was: None
+[2025-03-31T11:06:36.010+0100] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=test_dag2, task_id=move_to_transformation, execution_date=20250331T100628, start_date=20250331T100635, end_date=20250331T100636
+[2025-03-31T11:06:36.069+0100] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-03-31T11:06:36.124+0100] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

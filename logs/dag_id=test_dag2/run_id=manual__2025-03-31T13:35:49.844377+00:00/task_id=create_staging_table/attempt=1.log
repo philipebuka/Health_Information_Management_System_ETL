@@ -1,0 +1,25 @@
+[2025-03-31T14:35:51.696+0100] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: test_dag2.create_staging_table manual__2025-03-31T13:35:49.844377+00:00 [queued]>
+[2025-03-31T14:35:51.718+0100] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: test_dag2.create_staging_table manual__2025-03-31T13:35:49.844377+00:00 [queued]>
+[2025-03-31T14:35:51.719+0100] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-03-31T14:35:51.757+0100] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): create_staging_table> on 2025-03-31 13:35:49.844377+00:00
+[2025-03-31T14:35:51.768+0100] {standard_task_runner.py:60} INFO - Started process 19900 to run task
+[2025-03-31T14:35:51.782+0100] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'test_dag2', 'create_staging_table', 'manual__2025-03-31T13:35:49.844377+00:00', '--job-id', '215', '--raw', '--subdir', 'DAGS_FOLDER/test_dag2.py', '--cfg-path', '/tmp/tmp7z87960u']
+[2025-03-31T14:35:51.792+0100] {standard_task_runner.py:88} INFO - Job 215: Subtask create_staging_table
+[2025-03-31T14:35:51.983+0100] {task_command.py:423} INFO - Running <TaskInstance: test_dag2.create_staging_table manual__2025-03-31T13:35:49.844377+00:00 [running]> on host LAPTOP-A4DHQTS9.
+[2025-03-31T14:35:52.300+0100] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='test_dag2' AIRFLOW_CTX_TASK_ID='create_staging_table' AIRFLOW_CTX_EXECUTION_DATE='2025-03-31T13:35:49.844377+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-31T13:35:49.844377+00:00'
+[2025-03-31T14:35:52.342+0100] {base.py:83} INFO - Using connection ID 'source_db' for task execution.
+[2025-03-31T14:35:52.367+0100] {sql.py:450} INFO - Running statement: 
+        SELECT column_name, data_type
+        FROM information_schema.columns
+        WHERE table_name = 'prog3';
+    , parameters: None
+[2025-03-31T14:35:52.395+0100] {sql.py:459} INFO - Rows affected: 4
+[2025-03-31T14:35:52.420+0100] {base.py:83} INFO - Using connection ID 'destination_db' for task execution.
+[2025-03-31T14:35:52.437+0100] {sql.py:450} INFO - Running statement: 
+        CREATE SCHEMA IF NOT EXISTS staging;
+        CREATE TABLE IF NOT EXISTS staging.stg_prog3 ("uid" character varying, "lastupdated" timestamp without time zone, "Area (H)" text, "farmers" text);
+    , parameters: None
+[2025-03-31T14:35:52.442+0100] {python.py:201} INFO - Done. Returned value was: None
+[2025-03-31T14:35:52.478+0100] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=test_dag2, task_id=create_staging_table, execution_date=20250331T133549, start_date=20250331T133551, end_date=20250331T133552
+[2025-03-31T14:35:52.525+0100] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-03-31T14:35:52.614+0100] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

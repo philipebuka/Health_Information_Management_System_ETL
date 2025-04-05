@@ -1,0 +1,41 @@
+[2025-03-27T16:12:20.931+0100] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: test_dag2.transfer_data manual__2025-03-27T15:12:17.847948+00:00 [queued]>
+[2025-03-27T16:12:20.938+0100] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: test_dag2.transfer_data manual__2025-03-27T15:12:17.847948+00:00 [queued]>
+[2025-03-27T16:12:20.938+0100] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-03-27T16:12:20.947+0100] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): transfer_data> on 2025-03-27 15:12:17.847948+00:00
+[2025-03-27T16:12:20.951+0100] {standard_task_runner.py:60} INFO - Started process 18370 to run task
+[2025-03-27T16:12:20.954+0100] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'test_dag2', 'transfer_data', 'manual__2025-03-27T15:12:17.847948+00:00', '--job-id', '106', '--raw', '--subdir', 'DAGS_FOLDER/complete.py', '--cfg-path', '/tmp/tmp0pyl7qyz']
+[2025-03-27T16:12:20.955+0100] {standard_task_runner.py:88} INFO - Job 106: Subtask transfer_data
+[2025-03-27T16:12:20.999+0100] {task_command.py:423} INFO - Running <TaskInstance: test_dag2.transfer_data manual__2025-03-27T15:12:17.847948+00:00 [running]> on host LAPTOP-A4DHQTS9.
+[2025-03-27T16:12:21.070+0100] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='test_dag2' AIRFLOW_CTX_TASK_ID='transfer_data' AIRFLOW_CTX_EXECUTION_DATE='2025-03-27T15:12:17.847948+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-27T15:12:17.847948+00:00'
+[2025-03-27T16:12:21.080+0100] {base.py:83} INFO - Using connection ID 'source_db' for task execution.
+[2025-03-27T16:12:21.086+0100] {sql.py:450} INFO - Running statement: 
+        SELECT * FROM prog3
+        WHERE lastupdated > (SELECT COALESCE(MAX(lastupdated), '1900-01-01'::timestamp) FROM staging.stg_prog3);
+    , parameters: None
+[2025-03-27T16:12:21.088+0100] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/philip/de_engineering/airflow_projects/airflow1/venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/philip/de_engineering/airflow_projects/airflow1/venv/lib/python3.10/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/philip/de_engineering/airflow_projects/airflow1/venv/lib/python3.10/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/philip/airflow/dags/complete.py", line 59, in transfer_data
+    source_data = src_pg_hook.get_records(extract_query)
+  File "/home/philip/de_engineering/airflow_projects/airflow1/venv/lib/python3.10/site-packages/airflow/providers/common/sql/hooks/sql.py", line 261, in get_records
+    return self.run(sql=sql, parameters=parameters, handler=fetch_all_handler)
+  File "/home/philip/de_engineering/airflow_projects/airflow1/venv/lib/python3.10/site-packages/airflow/providers/common/sql/hooks/sql.py", line 398, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/philip/de_engineering/airflow_projects/airflow1/venv/lib/python3.10/site-packages/airflow/providers/common/sql/hooks/sql.py", line 455, in _run_command
+    cur.execute(sql_statement)
+psycopg2.errors.UndefinedTable: relation "staging.stg_prog3" does not exist
+LINE 3: ...E(MAX(lastupdated), '1900-01-01'::timestamp) FROM staging.st...
+                                                             ^
+
+[2025-03-27T16:12:21.096+0100] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=test_dag2, task_id=transfer_data, execution_date=20250327T151217, start_date=20250327T151220, end_date=20250327T151221
+[2025-03-27T16:12:21.106+0100] {standard_task_runner.py:107} ERROR - Failed to execute job 106 for task transfer_data (relation "staging.stg_prog3" does not exist
+LINE 3: ...E(MAX(lastupdated), '1900-01-01'::timestamp) FROM staging.st...
+                                                             ^
+; 18370)
+[2025-03-27T16:12:21.126+0100] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-03-27T16:12:21.145+0100] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

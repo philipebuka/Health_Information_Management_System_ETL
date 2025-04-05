@@ -1,0 +1,15 @@
+[2025-03-27T11:42:12.992+0100] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: test_dag.truncate_destination_table manual__2025-03-27T10:42:11.646019+00:00 [queued]>
+[2025-03-27T11:42:12.997+0100] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: test_dag.truncate_destination_table manual__2025-03-27T10:42:11.646019+00:00 [queued]>
+[2025-03-27T11:42:12.998+0100] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-03-27T11:42:13.007+0100] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): truncate_destination_table> on 2025-03-27 10:42:11.646019+00:00
+[2025-03-27T11:42:13.009+0100] {standard_task_runner.py:60} INFO - Started process 2270 to run task
+[2025-03-27T11:42:13.011+0100] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'test_dag', 'truncate_destination_table', 'manual__2025-03-27T10:42:11.646019+00:00', '--job-id', '69', '--raw', '--subdir', 'DAGS_FOLDER/test_dag.py', '--cfg-path', '/tmp/tmp_wynkmhv']
+[2025-03-27T11:42:13.013+0100] {standard_task_runner.py:88} INFO - Job 69: Subtask truncate_destination_table
+[2025-03-27T11:42:13.055+0100] {task_command.py:423} INFO - Running <TaskInstance: test_dag.truncate_destination_table manual__2025-03-27T10:42:11.646019+00:00 [running]> on host LAPTOP-A4DHQTS9.
+[2025-03-27T11:42:13.124+0100] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='test_dag' AIRFLOW_CTX_TASK_ID='truncate_destination_table' AIRFLOW_CTX_EXECUTION_DATE='2025-03-27T10:42:11.646019+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-27T10:42:11.646019+00:00'
+[2025-03-27T11:42:13.135+0100] {base.py:83} INFO - Using connection ID 'destination_db' for task execution.
+[2025-03-27T11:42:13.141+0100] {sql.py:450} INFO - Running statement: TRUNCATE TABLE staging.stg_prog3;, parameters: None
+[2025-03-27T11:42:13.158+0100] {python.py:201} INFO - Done. Returned value was: None
+[2025-03-27T11:42:13.168+0100] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=test_dag, task_id=truncate_destination_table, execution_date=20250327T104211, start_date=20250327T104212, end_date=20250327T104213
+[2025-03-27T11:42:13.183+0100] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-03-27T11:42:13.200+0100] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,15 @@
+[2025-03-11T11:09:05.411+0100] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: postgres_etl_dag.create_destination_table manual__2025-03-11T10:09:04.690924+00:00 [queued]>
+[2025-03-11T11:09:05.417+0100] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: postgres_etl_dag.create_destination_table manual__2025-03-11T10:09:04.690924+00:00 [queued]>
+[2025-03-11T11:09:05.417+0100] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2025-03-11T11:09:05.429+0100] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): create_destination_table> on 2025-03-11 10:09:04.690924+00:00
+[2025-03-11T11:09:05.432+0100] {standard_task_runner.py:60} INFO - Started process 245488 to run task
+[2025-03-11T11:09:05.435+0100] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'postgres_etl_dag', 'create_destination_table', 'manual__2025-03-11T10:09:04.690924+00:00', '--job-id', '27', '--raw', '--subdir', 'DAGS_FOLDER/first.py', '--cfg-path', '/tmp/tmpqkxfnlh6']
+[2025-03-11T11:09:05.437+0100] {standard_task_runner.py:88} INFO - Job 27: Subtask create_destination_table
+[2025-03-11T11:09:05.509+0100] {task_command.py:423} INFO - Running <TaskInstance: postgres_etl_dag.create_destination_table manual__2025-03-11T10:09:04.690924+00:00 [running]> on host LAPTOP-A4DHQTS9.
+[2025-03-11T11:09:05.583+0100] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='postgres_etl_dag' AIRFLOW_CTX_TASK_ID='create_destination_table' AIRFLOW_CTX_EXECUTION_DATE='2025-03-11T10:09:04.690924+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-11T10:09:04.690924+00:00'
+[2025-03-11T11:09:05.594+0100] {base.py:83} INFO - Using connection ID 'postgres_dest' for task execution.
+[2025-03-11T11:09:05.600+0100] {sql.py:450} INFO - Running statement: CREATE TABLE IF NOT EXISTS dest_table("rownumber" bigint, "S\N" double precision, "LGA" varchar(50), "COMMUNITY NAME" varchar(100), "WARD" varchar(100), "FACILITY TYPE" varchar(50));, parameters: None
+[2025-03-11T11:09:05.601+0100] {python.py:201} INFO - Done. Returned value was: Destination table created(or already exists).
+[2025-03-11T11:09:05.625+0100] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=postgres_etl_dag, task_id=create_destination_table, execution_date=20250311T100904, start_date=20250311T100905, end_date=20250311T100905
+[2025-03-11T11:09:05.650+0100] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-03-11T11:09:05.668+0100] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

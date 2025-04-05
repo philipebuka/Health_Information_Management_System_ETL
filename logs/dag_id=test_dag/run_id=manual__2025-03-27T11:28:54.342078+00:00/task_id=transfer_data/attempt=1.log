@@ -1,0 +1,40 @@
+[2025-03-27T12:28:57.346+0100] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: test_dag.transfer_data manual__2025-03-27T11:28:54.342078+00:00 [queued]>
+[2025-03-27T12:28:57.353+0100] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: test_dag.transfer_data manual__2025-03-27T11:28:54.342078+00:00 [queued]>
+[2025-03-27T12:28:57.354+0100] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-03-27T12:28:57.363+0100] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): transfer_data> on 2025-03-27 11:28:54.342078+00:00
+[2025-03-27T12:28:57.367+0100] {standard_task_runner.py:60} INFO - Started process 4006 to run task
+[2025-03-27T12:28:57.369+0100] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'test_dag', 'transfer_data', 'manual__2025-03-27T11:28:54.342078+00:00', '--job-id', '85', '--raw', '--subdir', 'DAGS_FOLDER/test_dag.py', '--cfg-path', '/tmp/tmp3jt9730e']
+[2025-03-27T12:28:57.371+0100] {standard_task_runner.py:88} INFO - Job 85: Subtask transfer_data
+[2025-03-27T12:28:57.420+0100] {task_command.py:423} INFO - Running <TaskInstance: test_dag.transfer_data manual__2025-03-27T11:28:54.342078+00:00 [running]> on host LAPTOP-A4DHQTS9.
+[2025-03-27T12:28:57.503+0100] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='test_dag' AIRFLOW_CTX_TASK_ID='transfer_data' AIRFLOW_CTX_EXECUTION_DATE='2025-03-27T11:28:54.342078+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-27T11:28:54.342078+00:00'
+[2025-03-27T12:28:57.513+0100] {base.py:83} INFO - Using connection ID 'source_db' for task execution.
+[2025-03-27T12:28:57.519+0100] {sql.py:450} INFO - Running statement: SELECT * FROM prog3;, parameters: None
+[2025-03-27T12:28:57.521+0100] {sql.py:459} INFO - Rows affected: 30
+[2025-03-27T12:28:57.530+0100] {base.py:83} INFO - Using connection ID 'destination_db' for task execution.
+[2025-03-27T12:28:57.550+0100] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/philip/de_engineering/airflow_projects/airflow1/venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/philip/de_engineering/airflow_projects/airflow1/venv/lib/python3.10/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/philip/de_engineering/airflow_projects/airflow1/venv/lib/python3.10/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/philip/airflow/dags/test_dag.py", line 68, in transfer_data
+    dest_pg_hook.insert_rows(f"staging.{destination_table}", source_data)
+  File "/home/philip/de_engineering/airflow_projects/airflow1/venv/lib/python3.10/site-packages/airflow/providers/common/sql/hooks/sql.py", line 541, in insert_rows
+    cur.execute(sql, values)
+psycopg2.errors.UndefinedTable: missing FROM-clause entry for table "new"
+LINE 1: ...3 (uid, lastupdated, "Area (H)", farmers) VALUES (NEW.uid, N...
+                                                             ^
+QUERY:  INSERT INTO transformation.tr_prog3 (uid, lastupdated, "Area (H)", farmers) VALUES (NEW.uid, NEW.lastupdated, NEW."Area (H)", NEW.farmers)
+CONTEXT:  PL/pgSQL function utils.generic_update_transformation_table() line 76 at EXECUTE
+
+[2025-03-27T12:28:57.561+0100] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=test_dag, task_id=transfer_data, execution_date=20250327T112854, start_date=20250327T112857, end_date=20250327T112857
+[2025-03-27T12:28:57.569+0100] {standard_task_runner.py:107} ERROR - Failed to execute job 85 for task transfer_data (missing FROM-clause entry for table "new"
+LINE 1: ...3 (uid, lastupdated, "Area (H)", farmers) VALUES (NEW.uid, N...
+                                                             ^
+QUERY:  INSERT INTO transformation.tr_prog3 (uid, lastupdated, "Area (H)", farmers) VALUES (NEW.uid, NEW.lastupdated, NEW."Area (H)", NEW.farmers)
+CONTEXT:  PL/pgSQL function utils.generic_update_transformation_table() line 76 at EXECUTE
+; 4006)
+[2025-03-27T12:28:57.582+0100] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-03-27T12:28:57.597+0100] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
