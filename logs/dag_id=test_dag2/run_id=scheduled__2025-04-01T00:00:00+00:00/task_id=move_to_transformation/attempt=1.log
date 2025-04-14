@@ -1,0 +1,48 @@
+[2025-04-07T11:25:54.790+0100] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: test_dag2.move_to_transformation scheduled__2025-04-01T00:00:00+00:00 [queued]>
+[2025-04-07T11:25:54.802+0100] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: test_dag2.move_to_transformation scheduled__2025-04-01T00:00:00+00:00 [queued]>
+[2025-04-07T11:25:54.802+0100] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-04-07T11:25:54.813+0100] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): move_to_transformation> on 2025-04-01 00:00:00+00:00
+[2025-04-07T11:25:54.816+0100] {standard_task_runner.py:60} INFO - Started process 4575 to run task
+[2025-04-07T11:25:54.818+0100] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'test_dag2', 'move_to_transformation', 'scheduled__2025-04-01T00:00:00+00:00', '--job-id', '286', '--raw', '--subdir', 'DAGS_FOLDER/first.py', '--cfg-path', '/tmp/tmpxh_cn7pp']
+[2025-04-07T11:25:54.820+0100] {standard_task_runner.py:88} INFO - Job 286: Subtask move_to_transformation
+[2025-04-07T11:25:54.867+0100] {task_command.py:423} INFO - Running <TaskInstance: test_dag2.move_to_transformation scheduled__2025-04-01T00:00:00+00:00 [running]> on host LAPTOP-A4DHQTS9.
+[2025-04-07T11:25:54.940+0100] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='test_dag2' AIRFLOW_CTX_TASK_ID='move_to_transformation' AIRFLOW_CTX_EXECUTION_DATE='2025-04-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-04-01T00:00:00+00:00'
+[2025-04-07T11:25:54.951+0100] {base.py:83} INFO - Using connection ID 'destination_db' for task execution.
+[2025-04-07T11:25:54.957+0100] {sql.py:450} INFO - Running statement: 
+        SELECT column_name FROM information_schema.columns 
+        WHERE table_schema = 'transformation' 
+        AND table_name = 'trans_prog3'
+        AND column_name <> 'uid';
+    , parameters: None
+[2025-04-07T11:25:54.967+0100] {sql.py:459} INFO - Rows affected: 3
+[2025-04-07T11:25:54.977+0100] {base.py:83} INFO - Using connection ID 'destination_db' for task execution.
+[2025-04-07T11:25:54.983+0100] {sql.py:450} INFO - Running statement: 
+        INSERT INTO transformation.trans_prog3
+        SELECT * FROM staging.stg_prog3
+        ON CONFLICT (uid) DO UPDATE 
+        SET "lastupdated" = EXCLUDED."lastupdated", "Area (H)" = EXCLUDED."Area (H)", "farmers" = EXCLUDED."farmers"
+        WHERE transformation.trans_prog3.lastupdated < EXCLUDED.lastupdated;
+    , parameters: None
+[2025-04-07T11:25:54.987+0100] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/philip/de_engineering/airflow_projects/airflow1/venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/philip/de_engineering/airflow_projects/airflow1/venv/lib/python3.10/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/philip/de_engineering/airflow_projects/airflow1/venv/lib/python3.10/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/philip/airflow/dags/first.py", line 93, in move_to_transformation
+    dest_pg_hook.run(upsert_query)
+  File "/home/philip/de_engineering/airflow_projects/airflow1/venv/lib/python3.10/site-packages/airflow/providers/common/sql/hooks/sql.py", line 398, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/philip/de_engineering/airflow_projects/airflow1/venv/lib/python3.10/site-packages/airflow/providers/common/sql/hooks/sql.py", line 455, in _run_command
+    cur.execute(sql_statement)
+psycopg2.errors.CardinalityViolation: ON CONFLICT DO UPDATE command cannot affect row a second time
+HINT:  Ensure that no rows proposed for insertion within the same command have duplicate constrained values.
+
+[2025-04-07T11:25:55.000+0100] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=test_dag2, task_id=move_to_transformation, execution_date=20250401T000000, start_date=20250407T102554, end_date=20250407T102554
+[2025-04-07T11:25:55.012+0100] {standard_task_runner.py:107} ERROR - Failed to execute job 286 for task move_to_transformation (ON CONFLICT DO UPDATE command cannot affect row a second time
+HINT:  Ensure that no rows proposed for insertion within the same command have duplicate constrained values.
+; 4575)
+[2025-04-07T11:25:55.031+0100] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-04-07T11:25:55.055+0100] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
